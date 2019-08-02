@@ -19,6 +19,6 @@ function incrementOnClick(){
 
 function addToCounter (){
   counter++;
-  console.log(counter + ' clicks!');
-  $('.container').append(counter + ' Clicks! ')
+  console.log(counter + ' number of clicks!');
+  $('.container').append(addToCounter);
 }
