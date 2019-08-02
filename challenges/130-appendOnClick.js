@@ -11,6 +11,12 @@ function appendBulletItem(){
   $('.container').append(header);
   let button = $('<button id="appendButton">Click Me</button>');
   $('.container').append(button);
+  button.on('click', addClick);
+
+  function addClick(){
+  $('.container').append(`<p>Click</p>`);
+  }
+  
 
   // YOUR CODE HERE
   // Append a new p tag with text "click" to the DOM on a click
